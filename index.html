@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- tailwind css cnd link start -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css cnd link start -->
+
+    <!-- google font link start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <!-- google font link end -->
+
+    <!-- fontawsome cdn link start -->
+    <script
+      src="https://kit.fontawesome.com/39832cba6c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawsome cdn link end -->
+
+    <style>
+      .font-sora {
+        font-family: "Sora";
+      }
+
+      .adlam-display {
+        font-family: "ADLaM Display";
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-[#FFF9F4] border-b border-black lg:border-hidden">
+      <!-- nav section start -->
+      <nav
+        class="max-w-[1320px] m-auto px-[15px] py-[25px] lg:font-sora text-[#111111] text-[20px] py-[px] lg:py-[38px]"
+      >
+        <div class="flex justify-between items-center text-center">
+          <div class="flex items-center gap-[12px]">
+            <img src="c1-assets/logo-header.png" alt="" />
+            <span
+              class="font-sora text-[#111111] text-[26px] opacity-0 lg:opacity-100"
+              >Browse<span class="text-[#FFDC26]">4</span>Pets</span
+            >
+
+            <span
+              class="text-[30px] cursor-pointer absolute left-[90%] lg:hidden"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </div>
+
+          <div>
+            <ul class="hidden lg:flex justify-between gap-[32px] lg:block">
+              <li class="a">Find a pet</li>
+              <li class="a">Breeds</li>
+              <li class="a">Contact us</li>
+            </ul>
+          </div>
+
+          <div class="hidden lg:flex justify-between items-center gap-[15px]">
+            <div>
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <button
+              class="border-solid border-2 border-[#FFDC26] px-[30px] py-[10px] rounded-[8px]"
+            >
+              Login
+            </button>
+            <button class="bg-[#FFDC26] px-[30px] py-[10px] rounded-[8px]">
+              Register
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- nav section start -->
+    </header>
+  </body>
+</html>
