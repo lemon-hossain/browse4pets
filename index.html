@@ -30,59 +30,192 @@
         font-family: "Sora";
       }
 
-      .adlam-display {
+      .font-adlam {
         font-family: "ADLaM Display";
       }
     </style>
   </head>
   <body>
-    <header class="bg-[#FFF9F4] border-b border-black lg:border-hidden">
+    <header>
       <!-- nav section start -->
-      <nav
-        class="max-w-[1320px] m-auto px-[15px] py-[25px] lg:font-sora text-[#111111] text-[20px] py-[px] lg:py-[38px]"
-      >
-        <div class="flex justify-between items-center text-center">
-          <div class="flex items-center gap-[12px]">
-            <img src="c1-assets/logo-header.png" alt="" />
-            <span
-              class="font-sora text-[#111111] text-[26px] opacity-0 lg:opacity-100"
-              >Browse<span class="text-[#FFDC26]">4</span>Pets</span
-            >
+      <nav class="bg-[#FFF9F4] border-b border-black lg:border-hidden">
+        <div
+          class="max-w-[1320px] m-auto px-[15px] py-[25px] lg:font-sora text-[#111111] text-[20px] py-[px] py-[38px]"
+        >
+          <div class="flex justify-between items-center text-center">
+            <div class="flex items-center gap-[12px]">
+              <img src="c1-assets/logo-header.png" alt="" />
+              <span
+                class="font-sora text-[#111111] text-[26px] opacity-0 lg:opacity-100"
+                >Browse<span class="text-[#FFDC26]">4</span>Pets</span
+              >
 
-            <span
-              class="text-[30px] cursor-pointer absolute left-[90%] lg:hidden"
-              ><i class="fa-solid fa-bars"></i
-            ></span>
-          </div>
-
-          <div>
-            <ul class="hidden lg:flex justify-between gap-[32px] lg:block">
-              <li class="a">Find a pet</li>
-              <li class="a">Breeds</li>
-              <li class="a">Contact us</li>
-            </ul>
-          </div>
-
-          <div class="hidden lg:flex justify-between items-center gap-[15px]">
-            <div>
-              <i class="fa-regular fa-bell"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <span
+                class="text-[30px] cursor-pointer absolute left-[90%] lg:hidden"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
             </div>
 
-            <button
-              class="border-solid border-2 border-[#FFDC26] px-[30px] py-[10px] rounded-[8px]"
-            >
-              Login
-            </button>
-            <button class="bg-[#FFDC26] px-[30px] py-[10px] rounded-[8px]">
-              Register
-            </button>
+            <div>
+              <ul class="hidden lg:flex justify-between gap-[32px] lg:block">
+                <li class="a">Find a pet</li>
+                <li class="a">Breeds</li>
+                <li class="a">Contact us</li>
+              </ul>
+            </div>
+
+            <div class="hidden lg:flex justify-between items-center gap-[15px]">
+              <div>
+                <i class="fa-regular fa-bell"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+
+              <button
+                class="border-solid border-2 border-[#FFDC26] px-[30px] py-[10px] rounded-[8px]"
+              >
+                Login
+              </button>
+              <button class="bg-[#FFDC26] px-[30px] py-[10px] rounded-[8px]">
+                Register
+              </button>
+            </div>
           </div>
         </div>
       </nav>
-      <!-- nav section start -->
+      <!-- nav section end -->
+
+      <!-- hero section start -->
+      <section
+        class="relative px-[15px] lg:max-w-[1320px] m-auto lg:text-[#111111] mt-[70px] mb-[100px]"
+      >
+        <div>
+          <h1
+            class="font-adlam text-[1.875rem] lg:text-[3.5rem] pb-[16px] relative z-10"
+          >
+            Pamper Your Pet, <br />
+            Because They Deserve <br />
+            the Bes
+          </h1>
+          <p class="font-sora pb-[24px] relative z-10">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button
+            class="bg-[#FFDC26] px-[30px] py-[10px] rounded-[8px] relative z-10"
+          >
+            Find a pet
+          </button>
+          <img
+            class="absolute right-0 lg:-top-[5px]"
+            src="c1-assets/cat-big.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- hero section end -->
     </header>
+
+    <main>
+      <!-- categories section start -->
+      <section class="relative px-[15px] lg:max-w-[1320px] m-auto lg:text-[#111111] mt-[500px] mb-  [100px]">
+        <div class="my-[120px]">
+          <h1 class="font-adlam text-[1.5rem] lg:text-[2.25rem] pb-[42px]">
+          Browse By Categories
+        </h1>
+        <!-- card  -->
+        <div class="grid grid-cols-2 gap-[10px] lg:grid-cols-6 gap-[24px]">
+          <!-- cards 1 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/dog-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Dog</h3>
+            <h4 class="font-sora pb[12px]">3 items</h4>
+          </div>
+          <!-- cards 2 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/fish-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Fish</h3>
+            <h4 class="font-sora">3 items</h4>
+          </div>
+          <!-- cards 3 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/cat-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Cat</h3>
+            <h4 class="font-sora">3 items</h4>
+          </div>
+          <!-- cards 4 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/bird-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Birds</h3>
+            <h4 class="font-sora">3 items</h4>
+          </div>
+          <!-- cards 5 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/mouse-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Small pet</h3>
+            <h4 class="font-sora">3 items</h4>
+          </div>
+
+          <!-- cards 6 -->
+          <div
+            class="bg-[#F9DF8A] h-[245px] px-[43px] py-[34px] text-center place-items-center rounded-[12px]"
+          >
+            <div class="pb-[24px]">
+              <img
+                class="items-center justify-center bg-white rounded-full p-[30px]"
+                src="c1-assets/rabbit-cartoon.png"
+                alt=""
+              />
+            </div>
+            <h3 class="font-adlam pb-[12px]">Rabit</h3>
+            <h4 class="font-sora">3 items</h4>
+          </div>
+        </div>
+      </section>
+      <!-- categories section end -->
+        </div>
+    </main>
   </body>
 </html>
